@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01-界面">
+      <UniqueIdentifier>{985e1cbe-4465-4d83-8939-47214a6895f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02-调试">
+      <UniqueIdentifier>{3024ff27-12b3-4107-a2a9-25dd318c67e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02-调试\1-调试对象">
+      <UniqueIdentifier>{ea3a6a7f-6197-4a5c-af80-f769e3053af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02-调试\2-调试引擎">
+      <UniqueIdentifier>{273789b7-0a85-457d-a362-86804d279b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02-调试\3-调试表达式">
+      <UniqueIdentifier>{471c08a2-2606-421f-9ac9-6278d89f7d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-断点">
+      <UniqueIdentifier>{192c007a-363e-4541-8ca4-4d6d30468b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02-调试\4-调试符号">
+      <UniqueIdentifier>{a57b15e2-6a35-41b6-8732-3ece5751ad02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-断点\1-BPObject">
+      <UniqueIdentifier>{58c04415-6f42-48b2-83bf-3afe92166c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-断点\2-BPTF（单步断点）">
+      <UniqueIdentifier>{6c943542-e5ac-44c5-9084-fd6f53eb6ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-断点\3-BPSoft（软件断点）">
+      <UniqueIdentifier>{01153739-5f87-46b8-850d-c9708147f92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-断点\4-BPHard（硬件断点）">
+      <UniqueIdentifier>{1cce8fc4-f75e-43c1-bbc8-fdbb7cf82e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-断点\5-BPAcc（内存访问断点）">
+      <UniqueIdentifier>{5ee5a144-2ca5-42c5-856e-659cf018109e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-断点\断点引擎">
+      <UniqueIdentifier>{e4539dc4-808a-414c-abb1-345593d120af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04-反汇编">
+      <UniqueIdentifier>{787c7e97-b857-42f4-b0cc-283ac3794646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05-汇编">
+      <UniqueIdentifier>{27b2d82f-42fa-4400-9b1d-c1b96d2edd23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DebuggerMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BPObject.h">
+      <Filter>03-断点\1-BPObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgObject.h">
+      <Filter>02-调试\1-调试对象</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgSymbol.h">
+      <Filter>02-调试\4-调试符号</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgEngine.h">
+      <Filter>02-调试\2-调试引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>02-调试\3-调试表达式</Filter>
+    </ClInclude>
+    <ClInclude Include="RegStruct.h">
+      <Filter>02-调试\1-调试对象</Filter>
+    </ClInclude>
+    <ClInclude Include="BPTF.h">
+      <Filter>03-断点\2-BPTF（单步断点）</Filter>
+    </ClInclude>
+    <ClInclude Include="BPSoft.h">
+      <Filter>03-断点\3-BPSoft（软件断点）</Filter>
+    </ClInclude>
+    <ClInclude Include="BPHard.h">
+      <Filter>03-断点\4-BPHard（硬件断点）</Filter>
+    </ClInclude>
+    <ClInclude Include="BPAcc.h">
+      <Filter>03-断点\5-BPAcc（内存访问断点）</Filter>
+    </ClInclude>
+    <ClInclude Include="Pectrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakpointEngine.h">
+      <Filter>03-断点\断点引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="hightLight.h">
+      <Filter>01-界面</Filter>
+    </ClInclude>
+    <ClInclude Include="DbgUi.h">
+      <Filter>01-界面</Filter>
+    </ClInclude>
+    <ClInclude Include="XEDParse.h">
+      <Filter>05-汇编</Filter>
+    </ClInclude>
+    <ClInclude Include="DisAsmEngine.h">
+      <Filter>04-反汇编</Filter>
+    </ClInclude>
+    <ClInclude Include="AddPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HidePEB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DebuggerMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BPObject.cpp">
+      <Filter>03-断点\1-BPObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgObject.cpp">
+      <Filter>02-调试\1-调试对象</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgSymbol.cpp">
+      <Filter>02-调试\4-调试符号</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgEngine.cpp">
+      <Filter>02-调试\2-调试引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>02-调试\3-调试表达式</Filter>
+    </ClCompile>
+    <ClCompile Include="BPTF.cpp">
+      <Filter>03-断点\2-BPTF（单步断点）</Filter>
+    </ClCompile>
+    <ClCompile Include="BPSoft.cpp">
+      <Filter>03-断点\3-BPSoft（软件断点）</Filter>
+    </ClCompile>
+    <ClCompile Include="BPHard.cpp">
+      <Filter>03-断点\4-BPHard（硬件断点）</Filter>
+    </ClCompile>
+    <ClCompile Include="BPAcc.cpp">
+      <Filter>03-断点\5-BPAcc（内存访问断点）</Filter>
+    </ClCompile>
+    <ClCompile Include="Pectrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakpointEngine.cpp">
+      <Filter>03-断点\断点引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="DbgUi.cpp">
+      <Filter>01-界面</Filter>
+    </ClCompile>
+    <ClCompile Include="DisAsmEngine.cpp">
+      <Filter>04-反汇编</Filter>
+    </ClCompile>
+    <ClCompile Include="AddPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HidePEB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
